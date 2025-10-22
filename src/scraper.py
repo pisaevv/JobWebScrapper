@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup, Tag
 from colorama import Fore, Style
 from sqlalchemy.orm import Session
 
-from src.models import Job, create_session_maker
+from models import Job, create_session_maker
 
 
 def alert(text: str) -> None:
