@@ -14,8 +14,7 @@ from customtkinter import CTkProgressBar as ProgressBar
 from customtkinter import CTkTabview as Tabview
 from sqlalchemy import create_engine, text
 
-from src.scraper import LinkedInScrapper
-
+from scraper import LinkedInScrapper
 
 @dataclass
 class FormEntry:
