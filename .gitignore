@@ -404,4 +404,7 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-# End of https://www.toptal.com/developers/gitignore/api/python,pycharm+all,pycharm+iml,pycharm,pydev
+# End of https://www.toptal.com/developers/gitignore/api/python,pycharm+all,pycharm+iml,pycharm,pydevvenv/
+*.db
+*.csv
+__pycache__/
